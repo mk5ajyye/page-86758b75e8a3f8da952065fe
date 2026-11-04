@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "26edda6dc6da6018ab87876e",
+  "owner": "mk5ajyye",
+  "repo": "page-86758b75e8a3f8da952065fe",
+  "title": "YukiMo",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "86758b75e8a3f8da952065fe",
+      "a": "YukiMo",
+      "b": "",
+      "entity": "YukiMo",
+      "brand": "YukiMo",
+      "separator": "",
+      "path": "index.html",
+      "hash": "f129b32547740091797201d217d8f2b5b07e5f9a97ed365f4e57656751d6f190",
+      "content": {
+        "keyword1": "YukiMo",
+        "keyword2": "",
+        "primary_entity": "YukiMo",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "YukiMo提供稳定高效的机场套餐与客户端解决方案，包括基础版、旗舰版和团队版等多个套餐选项。",
+          "AI_DESCRIPTION": "YukiMo提供稳定高效的机场套餐与客户端解决方案，包括基础版、旗舰版和团队版等多个套餐选项。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n        :root {--brown: #5C4033;--mint: #98D8C8;--gray: #F5F5F5;--text: #333333}\n        \n        * {margin: 0;padding: 0;box-sizing: border-box}\n        \n        body {font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;background-color: #f8f9fa;color: var(--text);line-height: 1.6}\n        \n        nav {background-color: white;border-bottom: 1px solid #e5e5e5;position: sticky;top: 0;z-index: 100}\n        \n        .nav-container {max-width: 1200px;margin: 0 auto;padding: 0 2rem;display: flex;align-items: center;justify-content: space-between;height: 72px}\n        \n        .logo {font-size: 1.75rem;font-weight: 700;color: var(--brown);letter-spacing: -0.5px}\n        \n        .nav-links {display: flex;gap: 2.5rem;font-size: 0.95rem}\n        \n        .nav-links a {text-decoration: none;color: var(--text);font-weight: 500;transition: color 0.2s}\n        \n        .nav-links a:hover {color: var(--brown)}\n        \n        .hero {height: 100vh;display: flex;align-items: center;background: linear-gradient(135deg, #5C4033 0%, #E8F5E9 100%);position: relative;overflow: hidden}\n        \n        .hero::before {content: '';position: absolute;top: 0;right: 0;width: 65%;height: 100%;background: rgba(255,255,255,0.15);backdrop-filter: blur(10px)}\n        \n        .hero-content {max-width: 1200px;margin: 0 auto;padding: 0 2rem;display: flex;gap: 4rem;align-items: flex-start;position: relative;z-index: 2}\n        \n        .hero-text {flex: 1;max-width: 420px;color: white}\n        \n        .hero-text h1 {font-size: 4.25rem;font-weight: 700;line-height: 1.05;margin-bottom: 1.25rem;letter-spacing: -2px}\n        \n        .hero-text p {font-size: 1.35rem;opacity: 0.95;margin-bottom: 2rem}\n        \n        .hero-visual {flex: 1;height: 520px;background: white;border-radius: 16px;display: flex;align-items: center;justify-content: center;font-size: 2.75rem;font-weight: 700;color: var(--brown);box-shadow: 0 25px 50px -12px rgb(92 64 51 / 0.15);position: relative;z-index: 2}\n        \n        .hero-visual::after {content: '';position: absolute;inset: 0;background: linear-gradient(45deg, transparent, rgba(152,216,200,0.12));border-radius: 16px;pointer-events: none}\n        \n        main {max-width: 1200px;margin: 0 auto;padding: 4rem 2rem}\n        \n        h1 {font-size: 2.75rem;font-weight: 700;color: var(--brown);margin-bottom: 3rem;text-align: center}\n        \n        .section {margin-bottom: 5rem}\n        \n        .plans-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));gap: 2rem}\n        \n        .plan-card {background: white;border: 1px solid #e5e5e5;border-radius: 12px;padding: 2.25rem 1.75rem;transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);position: relative;box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.05)}\n        \n        .plan-card:hover {transform: translateY(-8px);box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1)}\n        \n        .plan-card.featured {border-color: var(--mint);box-shadow: 0 0 0 4px rgba(152, 216, 200, 0.15)}\n        \n        .plan-card.featured::before {content: \"推荐\";position: absolute;top: -12px;right: 24px;background: var(--mint);color: white;font-size: 0.75rem;font-weight: 600;padding: 4px 14px;border-radius: 9999px;letter-spacing: 0.5px}\n        \n        .plan-name {font-size: 1.75rem;font-weight: 700;margin-bottom: 1rem;color: var(--brown)}\n        \n        .plan-price {font-size: 2.25rem;font-weight: 700;color: var(--brown);margin-bottom: 0.5rem}\n        \n        .plan-annual {color: #666;font-size: 0.95rem;margin-bottom: 1.75rem}\n        \n        .plan-features {list-style: none}\n        \n        .plan-features li {padding: 0.75rem 0;border-bottom: 1px solid #f0f0f0;display: flex;align-items: flex-start;gap: 0.75rem}\n        \n        .plan-features li:last-child {border-bottom: none}\n        \n        .plan-features li:before {content: \"✓\";color: var(--mint);font-weight: bold;flex-shrink: 0;width: 20px}\n        \n        .client-section {background: white;padding: 3rem 2.5rem;border-radius: 12px;box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.05);margin-bottom: 4rem}\n        \n        .client-section h2 {font-size: 1.85rem;margin-bottom: 1.25rem;color: var(--brown)}\n        \n        .client-section p {margin-bottom: 1.25rem;color: #444}\n        \n        .faq-section {background: white;border-radius: 12px;padding: 2.5rem;box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.05)}\n        \n        .faq-section h2 {font-size: 1.85rem;margin-bottom: 2rem;color: var(--brown)}\n        \n        details {border: 1px solid #e5e5e5;border-radius: 8px;margin-bottom: 0.75rem;overflow: hidden}\n        \n        summary {font-weight: 600;padding: 1.25rem 1.75rem;cursor: pointer;font-size: 1.1rem;list-style: none;position: relative}\n        \n        summary::-webkit-details-marker {display: none}\n        \n        summary:hover {background-color: #f8f9fa}\n        \n        .answer {padding: 0 1.75rem 1.75rem;color: #555}\n        \n        .answer p {margin-bottom: 1rem}\n        \n        footer {background-color: #2a2a2a;color: #ccc;text-align: center;padding: 2.5rem 0;font-size: 0.9rem}\n        \n        @media (max-width: 768px) {\n            .hero-content {flex-direction: column;gap: 2rem;text-align: center}\n            \n            .hero-text {max-width: 100%;text-align: center}\n            \n            .hero-text h1 {font-size: 3.25rem}\n            \n            .hero-visual {width: 100%;height: 280px;font-size: 2.25rem}\n            \n            main {padding: 3rem 1rem}\n        }\n    </style><nav>\n        <div class=\"nav-container\">\n            <div class=\"logo\">YukiMo</div>\n            <div class=\"nav-links\">\n                <a href=\"#plans\">套餐</a>\n                <a href=\"#client\">客户端</a>\n                <a href=\"#faq\">帮助</a>\n            </div>\n        </div>\n    </nav>\n    \n    <section class=\"hero\">\n        <div class=\"hero-content\">\n            <div class=\"hero-text\">\n                <h1>YukiMo</h1>\n                <p>提供稳定高效的网络访问服务</p>\n            </div>\n            <div class=\"hero-visual\">\n                立即选择套餐\n            </div>\n        </div>\n    </section>\n    \n    <main>\n        <h2>机场套餐与客户端使用说明</h2>\n        \n        <section id=\"plans\" class=\"section\">\n            <h2>选择适合您的套餐</h2>\n            <div class=\"plans-grid\">\n                \n                <div class=\"plan-card\">\n                    <div class=\"plan-name\">基础版</div>\n                    <div class=\"plan-price\">¥15/月</div>\n                    <div class=\"plan-annual\">按年付仅需 ¥150/年</div>\n                    <ul class=\"plan-features\">\n                        <li>每月 100GB 极速流量</li>\n                        <li>支持 3 台设备同时在线</li>\n                        <li>解锁基础流媒体</li>\n                        <li>普通线路节点池</li>\n                    </ul>\n                </div>\n                \n                \n                <div class=\"plan-card featured\">\n                    <div class=\"plan-name\">旗舰版</div>\n                    <div class=\"plan-price\">¥35/月</div>\n                    <div class=\"plan-annual\">按年付仅需 ¥350/年</div>\n                    <ul class=\"plan-features\">\n                        <li>每月 300GB 极速流量</li>\n                        <li>支持 5 台设备同时在线</li>\n                        <li>全节点原生流媒体解锁</li>\n                        <li>IPLC 专线游戏加速优化</li>\n                        <li>7x24 优先工单支持</li>\n                    </ul>\n                </div>\n                \n                \n                <div class=\"plan-card\">\n                    <div class=\"plan-name\">团队版</div>\n                    <div class=\"plan-price\">¥85/月</div>\n                    <div class=\"plan-annual\">按年付仅需 ¥850/年</div>\n                    <ul class=\"plan-features\">\n                        <li>每月 1000GB 极速流量</li>\n                        <li>支持 20 台设备同时在线</li>\n                        <li>VIP 专属高带宽节点</li>\n                        <li>支持企业定制路由</li>\n                        <li>专属客户经理服务</li>\n                    </ul>\n                </div>\n            </div>\n        </section>\n        \n        <section id=\"client\" class=\"client-section\">\n            <h2>客户端下载与使用说明</h2>\n            <p>YukiMo 提供跨平台客户端，支持 Windows、macOS、iOS 及 Android 系统。</p>\n            <p>客户端采用轻量设计，可实现自动线路选择与流量实时监控。</p>\n            <p>安装完成后，请通过对应套餐选择最佳节点进行连接。</p>\n        </section>\n        \n        <section id=\"faq\" class=\"faq-section\">\n            <h2>常见问题解答</h2>\n            <details>\n                <summary>什么是 YukiMo？</summary>\n                <div class=\"answer\">\n                    <p>YukiMo 提供机场套餐和客户端服务，旨在帮助用户稳定访问网络资源。</p>\n                </div>\n            </details>\n            <details>\n                <summary>如何订阅套餐？</summary>\n                <div class=\"answer\">\n                    <p>选择适合的套餐并完成支付，即可立即使用对应权益。</p>\n                </div>\n            </details>\n            <details>\n                <summary>套餐如何计费？</summary>\n                <div class=\"answer\">\n                    <p>月付按月计算，年付可享优惠价格。</p>\n                </div>\n            </details>\n            <details>\n                <summary>客户端如何安装？</summary>\n                <div class=\"answer\">\n                    <p>根据您使用的操作系统下载对应版本客户端并运行。</p>\n                </div>\n            </details>\n            <details>\n                <summary>支持哪些设备？</summary>\n                <div class=\"answer\">\n                    <p>客户端支持 Windows、macOS、iOS 和 Android 平台。</p>\n                </div>\n            </details>\n            <details>\n                <summary>如何选择节点？</summary>\n                <div class=\"answer\">\n                    <p>登录客户端后可查看可用节点并选择最优线路。</p>\n                </div>\n            </details>\n        </section>\n    </main>\n    \n    <footer>\n        <div>\n            © 2025 YukiMo 网络服务\n        </div>\n    </footer>",
+          "hash": "1d79591ff07fb94793bb611ba8852c5b76c60e2bb70b1bf7d0447a2c8d34a4fb",
+          "seo": {
+            "title": "YukiMo官网｜YukiMo机场套餐、客户端与使用说明",
+            "keywords": "YukiMo,YukiMo官网,YukiMo机场,YukiMo机场官网,机场套餐,机场客户端,机场使用说明",
+            "description": "YukiMo提供稳定高效的机场套餐与客户端解决方案，包括基础版、旗舰版和团队版等多个套餐选项。"
+          },
+          "provider": "deepseek",
+          "model": "grok-4.6",
+          "design": {
+            "no": "9918",
+            "hero": "7 窄栏居左配大面积留白",
+            "palette": "9 深棕配薄荷",
+            "nav": "1 顶部细横条",
+            "card": "1 无边框仅靠留白分隔",
+            "plans_view": "4 单列大卡依次堆叠",
+            "faq_view": "4 details 折叠",
+            "tone": "1 冷静克制的说明书口吻",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "zizafzt.cn",
+    "host": "p-f8e9ca12f1.zizafzt.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "1d41e5849de2f95876a2b0151c4df0e17e6678ed0c99a307e890a18ce44fb258",
+    "sitemap.xml": "c616de27a9a0db5a3bc0a8b8a646b31849db10aef92ad4629d9bced85c1431a0",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "001d13ee55fb36b4dd2b12b885cb67aac2d021e05dd4a655acd2b773c6323a3b",
+    "robots.txt": "2437ef543459c81cc8a6bc976c4e6aa9dad44261b4a97f712edaf08a885db9da",
+    "5283c36899e9405f18894eee1b91e9fc.txt": "2020cc105f55bb949df5ed2604999ade8fbf276f8e2324c0f4cd3a5b136453a7"
+  },
+  "revision": "e9bcd60f96c2c8548512930d960237e44a0628f0de67ca2aa3760682fe52d704"
+}
